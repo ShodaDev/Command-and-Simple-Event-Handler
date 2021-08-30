@@ -8,7 +8,7 @@ const colors = require("colors");
 //login in to the bot
 client.login(config.token);
 
-//clear Collections
+//create Collections
 client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
 client.categories = fs.readdirSync("./cmds");
